@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.title {
+    color: rgb(59, 225, 225);
+}
+.style{
+    color: greenyellow;
+}
+.body {
+    margin: 0%;
+    padding: 0%;
+}

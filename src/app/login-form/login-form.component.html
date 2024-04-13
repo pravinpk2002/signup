@@ -1,0 +1,18 @@
+
+<!-- <button (click)="toggle()">toggle</button>
+<p *ngIf="display">login-form works!</p> -->
+
+
+<form action="" class="login" #form="ngForm" (ngSubmit)="getinputData(form.value)">
+    <label for="">Username</label>
+    <input type="text" ngModel placeholder="username" name="user" #user="ngModel" id=""/>
+
+    <br><br>
+    <label for="">password</label>
+    <input type="password" ngModel placeholder="password" name="password" #password="ngModel" id="">
+    <br><br>
+    <label for="">email</label>
+    <input type="email" ngModel placeholder="email" name="email" #email="ngModel" id="">
+    <br><br>
+    <button type="submit">submit</button>
+</form>

@@ -1,0 +1,23 @@
+
+<!-- <h2>{{title}}</h2>
+
+<h2>{{title | lowercase}}</h2>
+<h2>{{title | uppercase}}</h2>
+<h2>{{title | slice: 0:3}}</h2>
+<h2>{{currentdate | date : 'fullDate'}}</h2> -->
+<form action="" [formGroup]="userForm" (ngSubmit)="formSubmission()">
+    <label for="">UserName : </label>
+    <input type="text" placeholder="username" formControlName="user">
+    <br>
+    <br>
+    <label for="">Password : </label>
+    <input type="password" placeholder="password" formControlName="password">
+    <br>
+    <br>
+    <label for="">Email :</label>
+    <input type="email" placeholder="email" name="" id="" formControlName="Email">
+    <br>
+    <button type="submit">Submit</button>
+
+
+</form>

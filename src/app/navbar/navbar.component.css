@@ -1,0 +1,20 @@
+nav img{
+    width: 80px;
+    
+
+}
+nav {
+    background-color: aqua;
+}
+ul{
+    list-style-type: none;
+    
+    
+    float: right;
+    
+}
+
+li {
+    display: inline;
+    margin:15px;
+}
