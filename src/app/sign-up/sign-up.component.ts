@@ -19,7 +19,7 @@ export class SignUpComponent {
    });
 
   formSubmission(){
-    console.log(this.userForm);
+    console.log(this.userForm.value);
     
   }
    
